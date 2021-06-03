@@ -51,7 +51,7 @@ elif value==2:
             u=3
             print ("Ciphertext:",ciphertext)
             print ("Shift:",str(u))
-            print ("Ciphertext:",decryption(ciphertext,u)),
+            print ("Plaintext:",decryption(ciphertext,u)),
 else:   
             print("Invalid value!")
             
